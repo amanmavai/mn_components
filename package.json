@@ -1,6 +1,6 @@
 {
   "name": "@amanmavai/components",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "reusable react components to be used across all my projects.",
   "type": "module",
   "main": "./dist/mn_components.mjs",
