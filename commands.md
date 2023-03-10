@@ -12,5 +12,6 @@ $ npx tailwindcss init -p
 
 $ pnpm install -D postcss-import
 
+$ pnpm install -D tsup
 
 ```
