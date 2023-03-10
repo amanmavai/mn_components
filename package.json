@@ -13,8 +13,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc && vite build",
-    "postbuild": "tsup"
+    "build": "tsc && vite build && tsup"
   },
   "peerDependencies": {
     "react": "^18.2.0",
