@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import * as packageJson from "./package.json";
 
-const packageName = packageJson.name;
+const fileName = "mn_components";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -11,9 +11,9 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: `src/${packageName}.ts`,
+      entry: `src/${fileName}.ts`,
       formats: ["es"],
-      fileName: (format) => `${packageName}.mjs`,
+      fileName: (format) => `${fileName}.mjs`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],
