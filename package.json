@@ -1,5 +1,5 @@
 {
-  "name": "mn_components",
+  "name": "@amanmavai/components",
   "version": "0.1.0",
   "description": "reusable react components to be used across all my projects.",
   "type": "module",
