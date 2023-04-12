@@ -14,4 +14,8 @@ $ pnpm install -D postcss-import
 
 $ pnpm install -D tsup
 
+$ pnpm add -D daisyui
+
+$ pnpm add classnames
+
 ```
