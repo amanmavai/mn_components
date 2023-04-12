@@ -1,6 +1,8 @@
+import cn from "classnames";
 export interface MnButtonProps {
-    type: string
+    className: string
+    children: React.ReactNode;
 }
-export function MnButton(props: MnButtonProps) {
-    return <button className="tw-bg-blue-500 tw-text-2xl">Hello Universe Library</button>;
+export function MnButton({className, children}: MnButtonProps) {
+    return <button className={cn("tw-btn", className)}>{children}</button>;
 }
