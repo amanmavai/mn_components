@@ -38,6 +38,6 @@ export function Toggle({
     const [sizeClass, stateClass] = [size ? classesMap[size] : "", state ? classesMap[state] : ""];
 
     return (
-        <input type="checkbox" className={cn("tw-toggle", sizeClass, stateClass, className)} checked onChange={handleToggle} />
+        <input type="checkbox" className={cn("tw-toggle", sizeClass, stateClass, className)} checked={toggled} onChange={handleToggle} />
     );
 };
