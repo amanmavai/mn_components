@@ -9,14 +9,14 @@ interface ToggleProps {
 }
 
 const classesMap = {
-    "xs": "toggle-xs",
-    "sm": "toggle-sm",
-    "md": "toggle-md",
-    "lg": "toggle-lg",
-    "success": "toggle-success",
-    "warning": "toggle-warning",
-    "info": "toggle-info",
-    "error": "toggle-error",
+    "xs": "tw-toggle-xs",
+    "sm": "tw-toggle-sm",
+    "md": "tw-toggle-md",
+    "lg": "tw-toggle-lg",
+    "success": "tw-toggle-success",
+    "warning": "tw-toggle-warning",
+    "info": "tw-toggle-info",
+    "error": "tw-toggle-error",
 };
 
 export function Toggle({
@@ -38,6 +38,6 @@ export function Toggle({
     const [sizeClass, stateClass] = [size ? classesMap[size] : "", state ? classesMap[state] : ""];
 
     return (
-        <input type="checkbox" className={cn("toggle", sizeClass, stateClass, className)} checked onChange={handleToggle} />
+        <input type="checkbox" className={cn("tw-toggle", sizeClass, stateClass, className)} checked onChange={handleToggle} />
     );
 };
