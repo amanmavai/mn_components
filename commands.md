@@ -18,4 +18,8 @@ $ pnpm add -D daisyui
 
 $ pnpm add classnames
 
+$ pnpm add -g pnpm
+
+$ pnpm dlx storybook@latest init
+
 ```
