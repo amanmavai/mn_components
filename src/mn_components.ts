@@ -1,5 +1,5 @@
 import "./tailwind.css";
 
-export * from "./Button";
-export * from "./Toggle";
-export * from "./Debug";
+export * from "./components/Button";
+export * from "./components/Toggle";
+export * from "./components/Debug";
